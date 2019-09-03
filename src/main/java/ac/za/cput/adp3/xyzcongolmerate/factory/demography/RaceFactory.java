@@ -10,6 +10,7 @@ public class RaceFactory {
     public static Race buildRace(String raceDescription) {
         return new Race.Builder()
                 .raceId(Helper.generateRandomGivenSuffix(SUFFIX))
+                .raceDescription(raceDescription)
                 .build();
     }
 }

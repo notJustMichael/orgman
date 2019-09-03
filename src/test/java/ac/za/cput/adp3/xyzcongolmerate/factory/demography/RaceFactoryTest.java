@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
 public class RaceFactoryTest {
 
     Race race = RaceFactory.buildRace("Green");
+
     @Test
     public void buildRace() {
         Assert.assertNotNull(race.getRaceId());
