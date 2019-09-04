@@ -12,7 +12,7 @@ public class OrganisationFactoryTest {
     @Test
     public void buildOrganisation() {
         Assert.assertNotNull(organisation);
-        Assert.assertNotNull(gender.getOrgCode());
+        Assert.assertNotNull(organisation.getOrgCode());
         Assert.assertNotEquals("ABC Group", organisation.getOrgName());
     }
 }
