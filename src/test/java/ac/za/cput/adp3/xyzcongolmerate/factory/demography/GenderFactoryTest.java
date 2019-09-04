@@ -11,6 +11,7 @@ public class GenderFactoryTest {
     @Test
     public void buildGender() {
         Assert.assertNotNull(gender);
+        Assert.assertNotNull(gender.getGenderId());
         Assert.assertEquals("Trans Fluid Non Binary",gender.getGenderDescription());
     }
 }
